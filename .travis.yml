@@ -6,3 +6,7 @@ gemfile:
   - gemfiles/default-with-activesupport.gemfile
   - gemfiles/json.gemfile
   - gemfiles/yajl.gemfile
+
+env:
+  - CI_REPORTS=shippable/testresults COVERAGE_REPORTS=shippable/codecoverage
+
